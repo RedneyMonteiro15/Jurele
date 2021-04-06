@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cabecalho{
+    position: absolute;
+    left: 0; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+}
+#cabecalho div{
+    margin-right: 60px;
+    display: flex;
+}
+#cabecalho div ul{
+    list-style: none;
+    display: flex;
+    margin-right: 40px;
+    transition: 1s;
+}
+#cabecalho div ul li{
+    padding-right: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+#login, #bora{
+    width: 70px;
+    padding: 5px;
+    margin-top: -5px;
+    background-color: transparent;
+    outline: 0;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+#cabecalho h1{
+    margin-left: 40px;
+}
+nav{
+    width: 100%;
+    min-height: 100vh;
+    background: url('imagem/fundo.jpg');
+    background-size: cover;
+    
+}
+nav h3{
+    padding-top: 40vh;
+    text-align: center;
+    font-size: 80px;
+    color: white;
+}
+#bora{
+    margin-left: 640px;
+    width: 100px;
+    padding: 10px;
+    font-size: 14pt;
+}
