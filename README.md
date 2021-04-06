@@ -5,7 +5,7 @@
 Desenvolvimento de site de um hotel de um trabalho de grupo do curso. Site de hotel feticio para apenas aprender a desenvolver sites profissionais, todos os conteúdos e multimédia são de uso gratuito, não tem nenhum roubo de direitos autorais.
 
 Lista dos site à desenvolver:
-- [x] Pagina principal
+- [ ] Pagina principal
 - [ ] Pagina Turismo 1
 - [ ] Pagina Turismo 2
  
