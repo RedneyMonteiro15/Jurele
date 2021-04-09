@@ -7,7 +7,7 @@
     position: absolute;
     left: 0; 
     width: 100%;
-    display: flex;
+    display: flex; 
     justify-content: space-between;
     align-items: center;
     color: white;
@@ -23,11 +23,16 @@
     margin-right: 40px;
     transition: 1s;
 }
+#cabecalho div ul a{
+    text-decoration: none;
+    color: white;
+}
 #cabecalho div ul li{
     padding-right: 20px;
     letter-spacing: 2px;
     cursor: pointer;
 }
+
 
 #login, #bora{
     width: 70px;
