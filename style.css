@@ -72,9 +72,45 @@ nav h3{
     padding: 10px;
     font-size: 14pt;
 }
-#section
+aside
 {
-    background-color: black;
+    max-width: 900px;
+}
+#home
+{
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+#home h2
+{
+    margin-bottom: 30px;
+    color: #4EA0D4;
+    letter-spacing: 1px;
+}
+#aparta,
+#info
+{
+    color: white;
+    margin: auto;
+    display: flex;
+    height: 240px;
+    font-size: 14pt;
+}
+#aparta .msg
+{
+    width: 400px;
+    text-align: center;
+    background-color: #6AA3A2;
+    padding-top: 110px;
+}
+#aparta #foto,
+#infoffoto
+{
+    width: 100%;
+    background-image: url('imagem/app.png');
+    background-size: 100%;
 }
 #rodape
 {
@@ -105,6 +141,11 @@ nav h3{
 {
     text-decoration: none;
     color: white;
+}
+
+#endereco li a:hover
+{
+    color: rgba(255, 255, 255, 0.5);
 }
 #redes
 {
