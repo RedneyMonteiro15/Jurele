@@ -9,8 +9,8 @@ Desenvolvimento de site de um hotel de um trabalho de grupo do curso. Site de ho
 - [ ] Pagina Turismo 2
  
 ## :pushpin: Suporte
-* [Twiter](https://github.com/RedneyMonteiro15)
-* [Linkdin](https://github.com/RedneyMonteiro15)
+* [Facebook](https://github.com/RedneyMonteiro15)
+* [YouTube](https://github.com/RedneyMonteiro15)
 * [Instagram](https://github.com/RedneyMonteiro15)
 
 ## 👤 Lista dos desenvolvedores do projeto:
