@@ -17,5 +17,6 @@ Desenvolvimento de site de um hotel de um trabalho de grupo do curso. Site de ho
 * [Redney Monteiro](https://github.com/RedneyMonteiro15)
 * [Jumara Fernandes](https://github.com/maura2020)
 * [Leonardo Santana](https://github.com/LeoSantana24)
----
+
+## :books: Link dos sites
 Para acessar ao site basta [clica aqui!!!](https://redneymonteiro15.github.io/Jurele/) site de trabalho de grupo
