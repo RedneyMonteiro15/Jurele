@@ -20,8 +20,8 @@ Desenvolvimento de site de um hotel de um trabalho de grupo do curso. Site de ho
 
 ## :books: Link dos sites
 * [Site Principal](https://redneymonteiro15.github.io/Jurele/)
-* [Site Tuirismo1](https://redneymonteiro15.github.io/Jurele/)
-* [Site Turismo2](https://redneymonteiro15.github.io/Jurele/)
+* [Site Tuirismo1](https://redneymonteiro15.github.io/Jurele/paginaturismo.html)
+* [Site Turismo2](https://redneymonteiro15.github.io/Jurele/turismopagina.html)
 
 ## 📑 Licença
 Site com linecença MIT Lincense - [Veja Mais](https://en.wikipedia.org/wiki/MIT_License)
