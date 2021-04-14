@@ -19,4 +19,10 @@ Desenvolvimento de site de um hotel de um trabalho de grupo do curso. Site de ho
 * [Leonardo Santana](https://github.com/LeoSantana24)
 
 ## :books: Link dos sites
-Para acessar ao site basta [clica aqui!!!](https://redneymonteiro15.github.io/Jurele/) site de trabalho de grupo
+* [Site Principal](https://redneymonteiro15.github.io/Jurele/)
+* [Site Tuirismo1](https://redneymonteiro15.github.io/Jurele/)
+* [Site Turismo2](https://redneymonteiro15.github.io/Jurele/)
+
+---
+
+Obrigada♥️
