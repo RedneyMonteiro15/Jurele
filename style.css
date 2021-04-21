@@ -174,7 +174,8 @@ aside
 {
     list-style: none;
 }
-#endereco li a
+#endereco li a,
+#redes li a
 {
     text-decoration: none;
     color: white;
