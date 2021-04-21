@@ -72,6 +72,10 @@ nav h3{
     padding: 10px;
     font-size: 14pt;
 }
+section
+{
+    margin-bottom: 50px;
+}
 aside
 {
     max-width: 900px;
@@ -162,3 +166,8 @@ aside
     text-align: center;
     margin-top: 50px;
 }
+#midias
+{
+    padding-left: 100px;
+}
+
