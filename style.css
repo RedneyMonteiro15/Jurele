@@ -93,7 +93,13 @@ aside
     color: #4EA0D4;
     letter-spacing: 1px;
 }
+#home p
+{
+    letter-spacing: 1px;
+    font-size: 12pt;
+}
 #aparta,
+#ap,
 #info
 {
     color: white;
@@ -102,19 +108,46 @@ aside
     height: 240px;
     font-size: 14pt;
 }
-#aparta .msg
+#aparta #msg,
+#ap #foto1
 {
     width: 400px;
     text-align: center;
-    background-color: #6AA3A2;
+    background-color: #83c5be;
     padding-top: 110px;
 }
+
 #aparta #foto,
+#ap #msg1,
 #infoffoto
 {
     width: 100%;
+    background-size: cover;
+    min-height: 200px;
+}
+#aparta #foto
+{
     background-image: url('imagem/app.png');
-    background-size: 100%;
+}
+#ap #foto1
+{
+    background-image: url('imagem/app.jpg');
+    background-size: 350px;
+}
+#ap #msg1
+{
+    background-color: #83c5be;
+    color: white;
+    font-size: 12pt;
+}
+#msg1 div
+{
+    padding: 40px;
+}
+#msg1 div a
+{
+    text-decoration: none;
+    color: white;
 }
 #rodape
 {
@@ -170,4 +203,3 @@ aside
 {
     padding-left: 100px;
 }
-
