@@ -18,7 +18,6 @@
     display: flex;
 }
 #cabecalho div ul{
-    list-style: none;
     display: flex;
     margin-right: 40px;
     transition: 1s;
@@ -28,12 +27,15 @@
     letter-spacing: 2px;
     cursor: pointer;
 }
-#cabecalho div ul li a
+ul
+{
+    list-style: none;
+}
+a
 {
     text-decoration: none;
     color: white;
 }
-
 
 #login, #bora{
     width: 70px;
@@ -49,9 +51,12 @@
 #cabecalho h1{
     margin-left: 40px;
 }
-#cabecalho ul li a.atual
+#cabecalho ul li a.atual,
+#endereco li a:hover,
+#cabecalho ul li a:hover
 {
     color: rgba(255, 255, 255, 0.5);
+    
 }
 nav{
     width: 100%;
@@ -144,11 +149,7 @@ aside
 {
     padding: 40px;
 }
-#msg1 div a
-{
-    text-decoration: none;
-    color: white;
-}
+
 #rodape
 {
     background-color: #8EC4E7;
@@ -156,7 +157,8 @@ aside
     padding-left: 180px;
     color: white;
 }
-#rodape .roda 
+#rodape .roda,
+#redes
 {
     display: flex;
     
@@ -170,25 +172,6 @@ aside
     font-size: 20px;
     margin-bottom: 10px;
 }
-#rodape div ul
-{
-    list-style: none;
-}
-#endereco li a,
-#redes li a
-{
-    text-decoration: none;
-    color: white;
-}
-
-#endereco li a:hover
-{
-    color: rgba(255, 255, 255, 0.5);
-}
-#redes
-{
-    display: flex;
-} 
 #redes li 
 {
     margin-right: 20px;
