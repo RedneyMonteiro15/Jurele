@@ -33,6 +33,10 @@
     letter-spacing: 2px;
     cursor: pointer;
 }
+#cabecalho div ul li a:hover
+{
+    text-decoration: underline;
+}
 ul
 {
     list-style: none;
@@ -42,13 +46,15 @@ a
     text-decoration: none;
     color: white;
 }
-
+#login
+{
+    margin-top: -10px;
+    font-size: 11pt;
+}
 #login, #bora{
-    width: 70px;
-    padding: 5px;
-    margin-top: -5px;
+    padding: 10px;
     background-color: transparent;
-    outline: 0;
+    outline: none;
     border: 1px solid white;
     border-radius: 10px;
     cursor: pointer;
@@ -81,8 +87,7 @@ nav h3{
 #bora{
     margin-left: 640px;
     width: 100px;
-    padding: 10px;
-    font-size: 14pt;
+    font-size: 15pt ;
 }
 section
 {
@@ -156,7 +161,10 @@ aside
 {
     padding: 40px;
 }
-
+#reserv a
+{
+    text-decoration: underline;
+}
 #rodape
 {
     background-color: #8EC4E7;
@@ -233,22 +241,11 @@ input::placeholder
     width: 280px;
     border: none;
     margin-top: 5px;
+    margin-bottom: 20px;
 }
 #form div input
 {
     background-color: rgba(13, 138, 161, 0.2);
-}
-#form label
-{
-    margin: 20px;
-}
-#form input
-{
-    margin-bottom: 20px;
-}
-textarea
-{
-    padding: 20px;
 }
 form input[type="button"]
 {
