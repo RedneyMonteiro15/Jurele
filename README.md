@@ -18,10 +18,8 @@ Desenvolvimento de site de um hotel de um trabalho de grupo do curso. Site de ho
 * [Jumara Fernandes](https://github.com/maura2020)
 * [Leonardo Santana](https://github.com/LeoSantana24)
 
-## :books: Link dos sites
-* [Site Principal](https://redneymonteiro15.github.io/Jurele/)
-* [Site Tuirismo1](https://redneymonteiro15.github.io/Jurele/paginaturismo.html)
-* [Site Turismo2](https://redneymonteiro15.github.io/Jurele/turismopagina.html)
+## :books: Link do Site
+Para aceder ao site, basta [Clicar Aqui!!!](https://redneymonteiro15.github.io/Jurele/)
 
 ## 📑 Licença
 Site com linecença MIT Lincense - [Veja Mais](https://en.wikipedia.org/wiki/MIT_License)
