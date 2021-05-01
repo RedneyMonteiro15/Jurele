@@ -12,22 +12,30 @@
     </style>
 </head> 
 <body id="formulario">
-    <section id="form">
+    <header id="cabecalho">
+        <h1>JURELE</h1>
         <div>
+            <ul>
+                <li><a href="index.html" class="atual">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="paginaturismo.html">Serviços</a></li>
+                <li><a href="turismopagina.html">Portifolio</a></li>
+                <li><a href="formulario.html">Formulario</a></li>
+            </ul>
+            <a href="reservar.html"><input type="button" value="Reserva" id="login"></a>
+        </div>
+    </header>
+    <section id="form">
             <form>
                 <h2>Faça a sua Reserva</h2>
-                <label for="nome">Nome: <input type="text" id="nome"></label>
-                <label for="aplide">Sobrenome: <input type="text" id="aplide"></label><br>
-                <label for="email">Email: <input type="email" id="email"></label>
-                <label for="numero">Telefone: <input type="tel" id="numero"></label><br>
-                <label for="dataEntrada">Data Entrada: <input type="date" id="dataEntrada"></label>
-                <label for="dataSaida">Data Saída: <input type="date" id="dataSaida"></label><br>
-                <label for="adulto">Nº Adulto: <input type="number" name="" id="adulto"></label>
-                <label for="crianca">Nº Crianças: <input type="number" name="" id="crianca"></label>
+                <label for="nome">Nome: <input type="text" id="nome" placeholder="Nome"></label>
+                <label for="email">Email: <input type="email" id="email" placeholder="Email"></label>
+                <label for="dataEntrada">Data Entrada: <input type="date" id="dataEntrada" placeholder="Data de Entrada"></label>
+                <label for="dataSaida">Data Saída: <input type="date" id="dataSaida"></label>
+                <label for="adulto">Nº Adulto: <input type="number" name="" id="adulto" placeholder="Número de Adultos" max="5" min="1"></label>
+                <label for="crianca">Nº Crianças: <input type="number" name="" id="crianca" placeholder="Número de Crianças" max="10" min="0"></label>
                 <input type="button" value="Enviar">
             </form>
-        </div>
-        <div id="imgem-fundo">jsk</div>
     </section>
 </body>
 </html>

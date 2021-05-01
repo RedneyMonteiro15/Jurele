@@ -8,6 +8,7 @@
 {
     position: absolute;
     left: 0; 
+    top: 0;
     width: 100%;
     display: flex; 
     justify-content: space-between;
@@ -63,7 +64,8 @@ a
     color: rgba(255, 255, 255, 0.5);
     
 }
-nav{
+nav
+{
     width: 100%;
     min-height: 100vh;
     background: url('imagem/fundo-1000.jpg');
@@ -192,27 +194,23 @@ aside
 {
     padding-left: 100px;
 }
-
 #formulario
 {
-    background-color: #001d3d;
-    color: #000;
+    background-image: url('imagem/formulario\ \(2\).jpg');
+    background-size: cover;
+    margin-top: 100px;
 }
 #form
 {
-    width: 800px;
-    margin: auto;
+    width: 300px;
     margin-top: 50px;
+    margin-left: 200px;
     border-radius: 50px;
     padding: 50px;
     outline: none;
     font-size: 14pt;
     background-color: #fff;
-}
-#imgem-fundo
-{
-    
-    background-image: url('imagem/formulario.jpg');
+    display: block;
 }
 #form h2
 {
@@ -220,14 +218,20 @@ aside
     text-align: center;
     margin-bottom: 40px;
 }
-
+input::placeholder
+{
+    font-style: italic;
+}
 #form input,
 textarea
 {
-    border: none;
-    border-bottom: 1px solid black;
     outline: none;
-    font-size: 15pt;
+    font-size: 13pt;
+    display: block;
+    padding: 10px;
+    border-radius: 20px;
+    width: 250px;
+    border: none;
 }
 #form label
 {
