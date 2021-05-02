@@ -255,3 +255,7 @@ form input[type="button"]
     cursor: pointer;
     margin-left: 10px;
 }
+form input[type="button"]:hover
+{
+    opacity: .8;
+}

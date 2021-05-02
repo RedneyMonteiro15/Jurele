@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>BORA</title> 
     <style>
@@ -36,7 +37,8 @@
                     <label for="adulto">Nº Adulto: <input type="number" name="" id="adulto" placeholder="Número de Adultos" max="5" min="1"></label>
                     <label for="crianca">Nº Crianças: <input type="number" name="" id="crianca" placeholder="Número de Crianças" max="10" min="0"></label>
                 </div>
-                <input type="button" value="Enviar">
+                <input type="button" value="Enviar" onclick="enviar()">
+                <div id="res"></div>
             </form>
     </section>
 </body>
