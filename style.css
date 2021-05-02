@@ -259,3 +259,8 @@ form input[type="button"]:hover
 {
     opacity: .8;
 }
+#valEmail
+{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
