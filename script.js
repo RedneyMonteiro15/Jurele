@@ -19,9 +19,20 @@ function enviar()
     }
     else
     {
-        var total = (adulto * 50) + (crianca * 30)
-        res.style.color = "green"
-        res.innerText = `Preço Total: ${total}€`
+        var inicio = new Date(dataEntrada)
+        var fim = new Date(dataSaida)
+        var diff = fim.getTime() - inicio.getTime();
+        var dias = diff / (1000 * 60 * 60 * 24);
+        if(dias > 0)
+        {
+            var total = (adulto * 50) + (crianca * 30)
+            res.style.color = "green"
+            res.innerText = `Preço Total: ${total}€ ${dias}`
+        }
+        else
+        {
+            res.innerText = 'Datas Inválidas'
+        }
     }
 }
 function validarEmail(){
@@ -39,3 +50,6 @@ function validarEmail(){
         valido = true
     }
 }
+
+
+//https://metring.com.br/diferenca-entre-datas-em-javascript

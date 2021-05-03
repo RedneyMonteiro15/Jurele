@@ -4,86 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
     <style>
-        form{
-            font-family: Calibri, sans-serif;
-            font-size: 18px;
-            }
-
-            fieldset{
-            border: none;
-            }
-
-            legend{
-            font-weight: bold;
-            font-size: 20px;
-            }
-
-            .form-group{
-            margin: 7px auto;
-            }
-
-            label{
-            width: 150px;
-            display: inline-block;
-            }
-
-            input[type="text"], input[type="email"]{
-            padding: 4px;
-            border-radius: 5px;
-            
-            }
-
-            input:invalid{
-            border-color: crimson;
-            box-shadow: 0px 0px 3px crimson;
-            }
-
-            input:focus{
-            outline: none;
-            }
-
-            input:focus:invalid{
-            box-shadow: none;
-            }
-
-            span{
-            color: crimson;
-            }
+        p{
+            font-size: 100px;
+        }
     </style>
 </head>
 <body>
-    <form action="">
-        <fieldset>
-          <legend>Formulario de Cadastro</legend>
-          
-          <div class="form-group">
-            <label for="email" >Email:</label>
-            <input type="email" onblur="validarEmail()" onfocus="redefinirMsg()" id="email"/>
-            <span id="error-email"></span>
-          </div>
-          <input type="submit" />
-          
-        </fieldset>
-      </form>
-    <script>
-        function validarEmail(){
-                var email = document.querySelector('#email');
-                var error = document.querySelector('#error-email');
-                
-                if(!email.checkValidity()){
-                    error.innerHTML = "Email invalido";  
-                }
-                
-                }
-
-                function redefinirMsg(){
-                var error = document.querySelector('#error-email');
-                if (error.innerHTML == "Email invalido"){
-                    error.innerHTML = "";
-                }
-                }
-    </script>
+    <label for="estrela"><i class="fa fa-star-o" aria-hidden="true"></i><input type="radio" name="" id="estrela"></label>
+    <label for="estrela1"><i class="fa fa-star-o" aria-hidden="true"></i><input type="radio" name="" id="estrela1"></label>
+    <label for="estrela2"><i class="fa fa-star-o" aria-hidden="true"></i><input type="radio" name="" id="estrela2"></label>
+    <!-- <p><i class="fa fa-star-o" aria-hidden="true"></i>
+    <i class="fa fa-star" aria-hidden="true"></i> -->
 </body>
 </html>
