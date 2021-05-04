@@ -14,7 +14,8 @@
     justify-content: space-between;
     align-items: center;
     color: white;
-    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 #cabecalho div
 {
@@ -257,4 +258,9 @@ form input[type="button"]:hover
 {
     margin-bottom: 10px;
     font-weight: 500;
+}
+
+.cabeca
+{
+    background-color: #8EC4E7;
 }
