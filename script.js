@@ -27,7 +27,7 @@ function enviar()
         {
             var total = (adulto * 50) + (crianca * 30)
             res.style.color = "green"
-            res.innerText = `Preço Total: ${total}€ ${dias}`
+            res.innerText = `Preço Total: ${total}€`
         }
         else
         {
