@@ -100,12 +100,27 @@ aside
     padding-bottom: 50px;
     text-align: center;
 }
-#home h2
+h2
+{
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 30pt;
+    color: #457b9d;
+}
+h3
+{
+    color: #457b9d;
+    font-size: 20pt;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* #home h2
 {
     margin-bottom: 30px;
     color: #4EA0D4;
     letter-spacing: 1px;
-}
+} */
 #home p
 {
     letter-spacing: 1px;
@@ -215,18 +230,19 @@ aside
     background-color: #fff;
     display: block;
 }
-#form h2
+/* #form h2
 {
     font-size: 20pt;
     text-align: center;
     margin-bottom: 40px;
     color: #118ab2;
-}
+} */
 input::placeholder
 {
     font-style: italic;
 }
-#form input
+#form div input,
+form input[type="button"]
 {
     outline: none;
     font-size: 13pt;
@@ -254,6 +270,30 @@ form input[type="button"]:hover
 {
     opacity: .8;
 }
+form label
+{
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+form input[type="checkbox"]
+{
+    width: 20px;
+    height: 20px;
+    outline: none;
+    -webkit-appearance: none;
+    border: 2px solid black;
+    transition: .5s;
+    margin-right: 10px;
+}
+
+form input:checked[type="checkbox"]
+{
+    border-left: none;
+    border-top: none;   
+    width: 10px;
+    border-color: lawngreen;
+    transform: rotate(45deg);
+}
 #valEmail
 {
     margin-bottom: 10px;
@@ -278,13 +318,13 @@ form input[type="button"]:hover
     transition: 1s;
    
 }
-#portifolio h2
+/* #portifolio h2
 {
     text-align: center;
     font-size: 30pt;
     margin-bottom: 20px;
     color: #457b9d;
-}
+} */
 #texto
 {
     width: 800px;

@@ -28,16 +28,17 @@
     </header>
     <section id="form">
             <form>
-                <h2>Faça a sua Reserva</h2>
+                <h3>Faça a sua Reserva</h3>
                 <div>
                     <label for="nome">Nome: <input type="text" id="nome" placeholder="Nome"></label>
                     <label for="email">Email: <input type="email" id="email" placeholder="Email" onblur="validarEmail()"></label>
                     <div id="valEmail"></div>
-                    <label for="dataEntrada">Data Entrada: <input type="date" id="dataEntrada" placeholder="Data de Entrada"></label>
-                    <label for="dataSaida">Data Saída: <input type="date" id="dataSaida" value="Data Entrada"></label>
+                    <label for="dataEntrada">Data Entrada: <input type="date" id="dataEntrada"></label>
+                    <label for="dataSaida">Data Saída: <input type="date" id="dataSaida"></label>
                     <label for="adulto">Nº Adulto: <input type="number" name="" id="adulto" placeholder="Número de Adultos" min="1"></label>
                     <label for="crianca">Nº Crianças: <input type="number" name="" id="crianca" placeholder="Número de Crianças" min="0"></label>
                 </div>
+                <label for="check"><input type="checkbox" name="" id="check"> Aceito os termos de lincença</label>
                 <input type="button" value="Enviar" onclick="enviar()">
                 <div id="res"></div>
             </form>

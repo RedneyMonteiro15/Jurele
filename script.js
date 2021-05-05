@@ -8,6 +8,7 @@ function enviar()
     var adulto = Number(window.document.getElementById('adulto').value)
     var crianca = Number(window.document.getElementById('crianca').value)
     var res = document.getElementById('res')
+    var check = document.getElementById('check')
     res.style.color = '#d62828'
     if(nome.length == 0 || email.length == 0 || dataEntrada.length == 0 || dataSaida.length == 0 || adulto.length == 0)
     {
@@ -16,6 +17,10 @@ function enviar()
     else if(!valido)
     {
         res.innerText = 'Verifica o seu email'
+    }
+    else if(!check.checked)
+    {
+        res.innerText = 'Por favor, aceita os termos de licença'
     }
     else
     {
