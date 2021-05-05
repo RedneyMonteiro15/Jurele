@@ -306,7 +306,3 @@ form input[type="button"]:hover
     margin: 20px;
     cursor: pointer;
 }
-#galeria img:hover
-{
-    transform: scale(1.05);
-}
