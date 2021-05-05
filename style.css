@@ -87,7 +87,7 @@ nav h3{
 }
 section
 {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 aside
 {
@@ -115,12 +115,6 @@ h3
     text-align: center;
     margin-bottom: 30px;
 }
-/* #home h2
-{
-    margin-bottom: 30px;
-    color: #4EA0D4;
-    letter-spacing: 1px;
-} */
 #home p
 {
     letter-spacing: 1px;
@@ -144,7 +138,10 @@ h3
     background-color: #83c5be;
     padding-top: 110px;
 }
-
+#msg h3
+{
+    color: white;
+}
 #aparta #foto,
 #ap #msg1,
 #infoffoto
@@ -204,7 +201,7 @@ h3
     font-size: 25px;
     cursor: pointer;
 }
-#rodape p
+p
 {
     text-align: center;
     margin-top: 50px;
@@ -213,6 +210,7 @@ h3
 {
     padding-left: 100px;
 }
+
 /*Formatação da reserva*/
 #formulario
 {
@@ -230,13 +228,6 @@ h3
     background-color: #fff;
     display: block;
 }
-/* #form h2
-{
-    font-size: 20pt;
-    text-align: center;
-    margin-bottom: 40px;
-    color: #118ab2;
-} */
 input::placeholder
 {
     font-style: italic;
@@ -318,23 +309,10 @@ form input:checked[type="checkbox"]
     transition: 1s;
    
 }
-/* #portifolio h2
-{
-    text-align: center;
-    font-size: 30pt;
-    margin-bottom: 20px;
-    color: #457b9d;
-} */
 #texto
 {
     width: 800px;
     margin: auto;
-}
-#portifolio p
-{
-
-    text-align: center;
-    margin-bottom: 50px;
 }
 #galeria
 {
