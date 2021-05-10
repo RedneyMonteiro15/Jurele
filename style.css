@@ -324,3 +324,53 @@ form input:checked[type="checkbox"]
     margin: 20px;
     cursor: pointer;
 }
+#servicos
+{
+    margin-top: 150px;
+}
+#todos-servicos
+{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+#todos-servicos .tipo
+{
+    width: 300px;
+    background-color: cadetblue;
+    margin: 20px;
+}
+#todos-servicos .tipo .titulo
+{
+    background-color: chocolate;
+    padding: 20px;
+    font-size: 16pt;
+}
+#todos-servicos .tipo .preco
+{
+    padding: 20px;
+}
+#todos-servicos .tipo .preco h6
+{
+    font-size: 15pt;
+    margin-bottom: -20px;
+}
+#todos-servicos .tipo .opcao
+{
+    padding: 20px;
+}
+#todos-servicos .tipo .opcao ul li
+{
+    padding: 3px;
+}
+#todos-servicos .tipo input
+{
+    width: 100px;
+    padding: 5px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
