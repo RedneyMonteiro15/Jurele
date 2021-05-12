@@ -374,3 +374,22 @@ form input:checked[type="checkbox"]
     cursor: pointer;
     margin-bottom: 20px;
 }
+
+
+/*Formatação do contato*/
+#contato
+{
+    background-image: url('imagem/ap1000.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -70px;
+}
+#contact
+{
+    margin-top: 150px;
+}
+#contact h3
+{
+    color: white;
+    font-size: 40pt;
+}
