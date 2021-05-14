@@ -393,3 +393,9 @@ form input:checked[type="checkbox"]
     color: white;
     font-size: 40pt;
 }
+#cont
+{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+}
