@@ -115,7 +115,8 @@ h3
     text-align: center;
     margin-bottom: 30px;
 }
-#home p
+#home p,
+#sobre div p
 {
     letter-spacing: 1px;
     font-size: 12pt;
@@ -387,7 +388,7 @@ form input:checked[type="checkbox"]
 }
 #contact
 {
-    margin-top: 150px;
+    margin-top: 100px;
 }
 #contact h3
 {
@@ -404,6 +405,7 @@ form input:checked[type="checkbox"]
 {
     color: white;
     width: 600px;
+    margin-top: 30px;
 }
 .conts
 {
@@ -471,5 +473,103 @@ form input:checked[type="checkbox"]
     font-size: 20pt;
     color: rgb(13, 138, 161);
     font-weight: 600;
+}
 
+/*Formatação dos serviços*/
+#servicos
+{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.todos-serviços
+{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+}
+.tipo
+{
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.tipo div
+{
+    padding: 10px;
+}
+.titulo
+{
+    font-size: 20pt;
+}
+.preço
+{
+    font-size: 40pt;
+    padding: 10px;
+}
+.opções
+{
+    padding: 20px; 
+}
+.opções li
+{
+    padding: 2px; 
+}
+.tipo input
+{
+    padding: 5px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 100px;
+}
+#transporte .titulo,
+#transporte input
+{
+    background-color: #81b29a;
+    color: white;
+}
+#Alimentação .titulo,
+#Alimentação input
+{
+    background-color: #a5a58d;
+    color: white;
+}
+#Desporte .titulo,
+#Desporte input
+{
+    background-color:#00b4d8 ;
+    color: white;
+}
+.opções li i
+{
+    color: rgb(55, 205, 50);
+}
+.opções li span i
+{
+    color: red;
+}
+#Azul
+{
+    height: 100px;
+    background-color:#81b29a;
+    margin-top: -200px;
+}
+.tipo
+{
+    background-color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+.tipo:hover
+{
+    transform: scale(1.02);
+}
+.tipo input
+{
+    font-size: 13pt;
+    padding: 10px;
+    width: 150px;
+    margin-top: 10px;
 }

@@ -60,5 +60,27 @@ function submit()
     alert("Funcionou")
 }
 
+function entrouT()
+{
+    var linha = document.getElementById('Azul')
+    linha.style.backgroundColor = "#81b29a"
+}
+function saiu()
+{
+    var linha = document.getElementById('Azul')
+    linha.style.backgroundColor = "#81b29a"
+}
+function entrouA()
+{
+    var linha = document.getElementById('Azul')
+    linha.style.backgroundColor = "#a5a58d"
+}
+function entrouD()
+{
+    var linha = document.getElementById('Azul')
+    linha.style.backgroundColor = "#00b4d8"
+}
+
+
 
 //https://metring.com.br/diferenca-entre-datas-em-javascript
