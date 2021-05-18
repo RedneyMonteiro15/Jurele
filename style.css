@@ -445,6 +445,31 @@ form input:checked[type="checkbox"]
     text-align: center;
     margin-bottom: 30px;
 }
+/*Formatação do sobre*/
+#sobre
+{
+    margin: auto;
+    margin-top: 150px;
+    width: 1000px;
+    margin-bottom: 100px;
+}
+#sobre div
+{
+    display: flex;
+}
+#sobre img
+{
+    margin-left: 50px;
+}
+#sobre div p
+{
+    text-align: left;
+    margin-top: 15px;
+}
+#sobre span
+{
+    font-size: 20pt;
+    color: rgb(13, 138, 161);
+    font-weight: 600;
 
-
-
+}
