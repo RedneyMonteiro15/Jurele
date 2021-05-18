@@ -55,6 +55,10 @@ function validarEmail(){
         valido = true
     }
 }
+function submit()
+{
+    alert("Funcionou")
+}
 
 
 //https://metring.com.br/diferenca-entre-datas-em-javascript

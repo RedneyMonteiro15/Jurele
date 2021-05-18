@@ -233,7 +233,10 @@ input::placeholder
     font-style: italic;
 }
 #form div input,
-form input[type="button"]
+form input[type="button"],
+#enviar input,
+#enviar textarea,
+#enviar input[type="button"]
 {
     outline: none;
     font-size: 13pt;
@@ -244,12 +247,11 @@ form input[type="button"]
     border: none;
     margin-top: 5px;
     margin-bottom: 20px;
-}
-#form div input
-{
     background-color: rgba(13, 138, 161, 0.2);
 }
-form input[type="button"]
+
+form input[type="button"],
+#enviar input[type="button"]
 {
     background-color: #1B88A2;
     font-weight: 700;
@@ -307,7 +309,6 @@ form input:checked[type="checkbox"]
     margin-top: 150px;
     margin-bottom: 50px;
     transition: 1s;
-   
 }
 #texto
 {
@@ -432,3 +433,18 @@ form input:checked[type="checkbox"]
     padding: 20px;
     color: black;
 }
+#enviar
+{
+    background-color: white;
+    padding: 25px;
+}
+#enviar h3
+{
+    color: #1B88A2;
+    font-size: 20pt;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+

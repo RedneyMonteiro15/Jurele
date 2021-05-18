@@ -61,10 +61,14 @@
             </aside>
             <aside id="enviar">
                 <form action="">
-                    <input type="text" name="" id="">
-                    <input type="email" name="" id="">
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                    <input type="submit" value="Enviar">
+                    <h3>Sua Mensagem</h3>
+                    <div>
+                        <label for="nomeCompleto">Nome: <input type="text" id="nomeCompleto" placeholder="Nome Completo"></label>
+                        <label for="email">Email: <input type="email" id ="email" onblur="validarEmail()" placeholder="Email"></label>
+                        <label for="msg">Digite sua mensagem: <textarea name="" id="msg" cols="30" rows="3" placeholder="Sua Mensagem"></textarea></label>
+                        <input type="button" value="Enviar" onclick="submit()">
+                        <div id="res"></div>
+                    </div>
                 </form>
             </aside>
         </aside>
