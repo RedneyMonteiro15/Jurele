@@ -17,6 +17,11 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
+#cabecalho img
+{
+    margin-top: -20px;
+    margin-left: 30px;
+}
 #cabecalho div
 {
     margin-right: 60px;

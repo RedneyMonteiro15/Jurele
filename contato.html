@@ -5,16 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <script src="script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>BORA</title> 
-    <style>
-
-    </style>
 </head> 
 <body id="contato">
     <header id="cabecalho">
-        <h1>JURELE</h1>
+        <img src="hotel.png" alt="">
         <div>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -63,10 +61,11 @@
                 <form action="">
                     <h3>Sua Mensagem</h3>
                     <div>
-                        <label for="nomeCompleto">Nome: <input type="text" id="nomeCompleto" placeholder="Nome Completo"></label>
+                        <label for="nome">Nome: <input type="text" id="nome" placeholder="Nome Completo"></label>
                         <label for="email">Email: <input type="email" id ="email" onblur="validarEmail()" placeholder="Email"></label>
+                        <div id="valEmail"></div>
                         <label for="msg">Digite sua mensagem: <textarea name="" id="msg" cols="30" rows="3" placeholder="Sua Mensagem"></textarea></label>
-                        <input type="button" value="Enviar" onclick="submit()">
+                        <input type="button" value="Submeter" onclick="submeter()">
                         <div id="res"></div>
                     </div>
                 </form>

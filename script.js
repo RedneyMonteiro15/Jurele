@@ -41,7 +41,7 @@ function enviar()
     }
 }
 function validarEmail(){
-    var email = document.querySelector('#email');
+    var email = document.getElementById('email')
     var res = document.getElementById('valEmail')
     if(!email.checkValidity()){
         res.style.color = '#d62828'
@@ -79,6 +79,24 @@ function entrouD()
 {
     var linha = document.getElementById('Azul')
     linha.style.backgroundColor = "#00b4d8"
+}
+function submeter()
+{
+    window.alert("Funcionou!!")
+    var nome = document.getElementById('nome').value
+    var email = document.getElementById('email').value
+    var msg = document.getElementById('msg').value
+    var res = document.getElementById('res')
+    if(nome.length == 0 || email.length == 0 || msg.length == 0)
+    {
+        res.style.color = '#d62828'
+        res.innerText = 'ERRO!!! Digite preenche todos os campos'
+    }
+    else
+    {
+        res.style.color = "green"
+        res.innerText = 'Mensagem submetida com sucesso'
+    }
 }
 
 
