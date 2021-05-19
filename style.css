@@ -474,6 +474,11 @@ form input:checked[type="checkbox"]
     color: rgb(13, 138, 161);
     font-weight: 600;
 }
+#sobre a
+{
+    color: rgb(13, 138, 161);
+    text-decoration: underline;
+}
 
 /*Formatação dos serviços*/
 #servicos
@@ -578,7 +583,7 @@ form input:checked[type="checkbox"]
 /*Formatção dos membros*/
 #equipa
 {
-    background-image: url('imagem/pexels-jean-van-der-meulen-1457845.jpg');
+    background-image: url('imagem/fundo-1000.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -610,8 +615,10 @@ form input:checked[type="checkbox"]
 }
 #membros h6
 {
-    font-size: 17pt;
+    font-size: 20pt;
     margin-top: 20px;
+    color: #00b4d8;
+    font-weight: 750;
 }
 #membros p
 {
