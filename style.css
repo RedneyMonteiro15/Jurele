@@ -573,3 +573,58 @@ form input:checked[type="checkbox"]
     width: 150px;
     margin-top: 10px;
 }
+
+
+/*Formatção dos membros*/
+#equipa
+{
+    background-image: url('imagem/pexels-jean-van-der-meulen-1457845.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#membros
+{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+#membros img
+{
+    width: 150px;
+    border-radius: 50%;
+}
+#membros div
+{
+    width: 300px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    text-align: center;
+    border-radius: 40px;
+    background-color: white;
+    cursor: pointer;
+    transition: .5s;
+    background-color: white;
+}
+#membros h6
+{
+    font-size: 17pt;
+    margin-top: 20px;
+}
+#membros p
+{
+    margin: 0;
+    font-size: 12pt;
+}
+#membros div:hover
+{
+    opacity: 1;
+}
+#membros i
+{
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 5px;
+}
