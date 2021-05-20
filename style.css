@@ -98,6 +98,7 @@ nav
 .banner video 
 {
     width: 100%;
+    transform: translateY(-110px);
 } 
 .banner .content 
 {
@@ -129,7 +130,7 @@ aside
 #home
 {
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
     padding-top: 80px;
     padding-bottom: 50px;
     text-align: center;
@@ -255,7 +256,7 @@ p
 #form
 {
     width: 300px;
-    margin: 60px 0 30px 200px;
+    margin: 0 0 30px 200px;
     border-radius: 50px;
     padding: 50px;
     outline: none;
@@ -327,7 +328,6 @@ form input:checked[type="checkbox"]
     margin-bottom: 10px;
     font-weight: 500;
 }
-
 .cabeca
 {
     background-color: #8EC4E7;
@@ -341,7 +341,7 @@ form input:checked[type="checkbox"]
     
     width: 1100px;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 90px;
     margin-bottom: 50px;
     transition: 1s;
 }
@@ -410,8 +410,6 @@ form input:checked[type="checkbox"]
     cursor: pointer;
     margin-bottom: 20px;
 }
-
-
 /*Formatação do contato*/
 #contato
 {
@@ -422,7 +420,7 @@ form input:checked[type="checkbox"]
 }
 #contact
 {
-    margin-top: 100px;
+    margin-top: 10px;
 }
 #contact h3
 {
@@ -443,7 +441,7 @@ form input:checked[type="checkbox"]
 }
 .conts
 {
-    margin: 20px;
+    margin: 40px;
     display: flex;
 }
 .conts div
@@ -454,7 +452,16 @@ form input:checked[type="checkbox"]
 {
     margin: 0;
     padding: 0;
-    font-size: 13px;
+    font-size: 15px;
+}
+.conts a
+{
+    text-decoration: underline;
+    transition: .5s;
+}
+.conts a:hover
+{
+    color: rgba(0, 0, 0, .9);
 }
 .conts h6
 {
@@ -473,6 +480,7 @@ form input:checked[type="checkbox"]
 {
     background-color: white;
     padding: 25px;
+    border-radius: 40px;
 }
 #enviar h3
 {
@@ -481,11 +489,12 @@ form input:checked[type="checkbox"]
     text-align: center;
     margin-bottom: 30px;
 }
+
 /*Formatação do sobre*/
 #sobre
 {
     margin: auto;
-    margin-top: 150px;
+    margin-top: 80px;
     width: 1000px;
     margin-bottom: 100px;
 }
@@ -517,7 +526,7 @@ form input:checked[type="checkbox"]
 /*Formatação dos serviços*/
 #servicos
 {
-    margin-top: 150px;
+    margin-top: 80px;
     margin-bottom: 150px;
 }
 .todos-serviços
@@ -613,21 +622,17 @@ form input:checked[type="checkbox"]
     margin-top: 10px;
 }
 
-
 /*Formatção dos membros*/
 #equipa
 {
-    background-image: url('imagem/fundo-1000.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, .7);
 }
 #membros
 {
     display: flex;
     width: 1000px;
     margin: auto;
-    margin-top: 150px;
-    margin-bottom: 100px;
+    margin-top: 30px;
 }
 #membros img
 {
@@ -651,12 +656,11 @@ form input:checked[type="checkbox"]
 {
     font-size: 20pt;
     margin-top: 20px;
-    color: #00b4d8;
     font-weight: 750;
 }
 #membros p
 {
-    margin: 0;
+    margin: 4px 0;
     font-size: 12pt;
 }
 #membros div:hover
@@ -669,3 +673,38 @@ form input:checked[type="checkbox"]
     margin-top: 20px;
     padding: 5px;
 }
+.fa
+{
+    transition: .5s;
+}
+.fa:hover
+{
+    transform: scale(1.2);
+}
+#membros .fa-linkedin
+{
+    color: #0e76a8;
+}
+#membros .fa-twitter
+{
+    color: #1DA1F2;
+}
+#membros .fa-github
+{
+    color: #000;
+}
+#equipas
+{
+    background-color: #1DA1F2;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 13pt;
+    cursor: pointer;
+    margin: -30px 10px;
+}
+
+

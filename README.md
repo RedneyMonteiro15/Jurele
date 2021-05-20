@@ -4,9 +4,13 @@
 Desenvolvimento de site de um hotel de um trabalho de grupo do curso. Site de hotel feticio para apenas aprender a desenvolver sites profissionais, todos os conteúdos e multimédia são de uso gratuito, não tem nenhum roubo de direitos autorais.
 
 ## :hammer: Lista dos site à desenvolver:
-- [ ] Pagina principal
-- [ ] Pagina Turismo 1
-- [ ] Pagina Turismo 2
+- [x] Pagina Principal
+- [x] Pagina Sobre
+- [x] Pagina Serviços
+- [x] Pagina Portifolio
+- [x] Pagina Contato
+- [x] Pagina Reserva
+- [x] Pagina Reserva
  
 ## :pushpin: Suporte
 * [Facebook](https://github.com/RedneyMonteiro15)
