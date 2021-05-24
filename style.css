@@ -56,6 +56,11 @@ a
 {
     text-decoration: none;
     color: white;
+    transition: .5s;
+}
+i
+{
+    cursor: pointer;
 }
 #login
 {
@@ -77,6 +82,7 @@ a
 
 #cabecalho ul li a.atual,
 #endereco li a:hover,
+.conts a:hover,
 #cabecalho ul li a:hover
 {
     opacity: .5;
@@ -459,10 +465,6 @@ form input:checked[type="checkbox"]
     text-decoration: underline;
     transition: .5s;
 }
-.conts a:hover
-{
-    color: rgba(0, 0, 0, .9);
-}
 .conts h6
 {
     font-size: 14pt;
@@ -510,6 +512,7 @@ form input:checked[type="checkbox"]
 {
     text-align: left;
     margin-top: 15px;
+    letter-spacing: 2px;
 }
 #sobre span
 {
@@ -625,7 +628,7 @@ form input:checked[type="checkbox"]
 /*Formatção dos membros*/
 #equipa
 {
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgb(13, 138, 161);
 }
 #membros
 {
@@ -651,6 +654,10 @@ form input:checked[type="checkbox"]
     cursor: pointer;
     transition: .5s;
     background-color: white;
+}
+#membros div:hover
+{
+    transform: scale(1.02);
 }
 #membros h6
 {
@@ -706,5 +713,4 @@ form input:checked[type="checkbox"]
     cursor: pointer;
     margin: -30px 10px;
 }
-
 
