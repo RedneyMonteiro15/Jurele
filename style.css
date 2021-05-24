@@ -194,11 +194,11 @@ h3
 }
 #aparta #foto
 {
-    background-image: url('imagem/app.png');
+    background-image: url('imagem/apartamento.png');
 }
 #ap #foto1
 {
-    background-image: url('imagem/app-300.jpg');
+    background-image: url('imagem/app.jpg');
     background-size: 350px;
 }
 #ap #msg1
@@ -256,7 +256,7 @@ p
 /*Formatação da reserva*/
 #formulario
 {
-    background-image: url('imagem/formulario\ \(2\).jpg');
+    background-image: url('imagem/formulario.jpg');
     background-size: cover;
 }
 #form
@@ -315,7 +315,6 @@ form input[type="checkbox"]
     width: 20px;
     height: 20px;
     outline: none;
-    -webkit-appearance: none;
     border: 2px solid black;
     transition: .5s;
     margin-right: 10px;
@@ -419,7 +418,7 @@ form input:checked[type="checkbox"]
 /*Formatação do contato*/
 #contato
 {
-    background-image: url('imagem/ap1000.jpg');
+    background-image: url('imagem/contato.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: -70px;
