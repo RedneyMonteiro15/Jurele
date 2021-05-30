@@ -315,6 +315,7 @@ form input[type="checkbox"]
     width: 20px;
     height: 20px;
     outline: none;
+    -webkit-appearance: none;
     border: 2px solid black;
     transition: .5s;
     margin-right: 10px;

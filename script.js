@@ -82,7 +82,6 @@ function entrouD()
 }
 function submeter()
 {
-    window.alert("Funcionou!!")
     var nome = document.getElementById('nome').value
     var email = document.getElementById('email').value
     var msg = document.getElementById('msg').value
