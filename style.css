@@ -270,7 +270,8 @@ p
     background-color: #fff;
     display: block;
 }
-input::placeholder
+input::placeholder,
+textarea
 {
     font-style: italic;
 }
@@ -365,6 +366,12 @@ form input:checked[type="checkbox"]
 {
     margin: 20px;
     cursor: pointer;
+    transition: .5s;
+}
+#galeria img:hover
+{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    transform: rotate(10deg);
 }
 #servicos
 {
