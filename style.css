@@ -275,7 +275,13 @@ textarea
 {
     font-style: italic;
 }
-#form div input,
+
+#form div input[type="password"],
+#form div input[type="tel"],
+#form div input[type="text"],
+#form div input[type="email"],
+#form div input[type="date"],
+#form div input[type="number"],
 form input[type="button"],
 #enviar input,
 #enviar textarea,
@@ -292,7 +298,6 @@ form input[type="button"],
     margin-bottom: 20px;
     background-color: rgba(13, 138, 161, 0.2);
 }
-
 form input[type="button"],
 #enviar input[type="button"]
 {
@@ -719,4 +724,109 @@ form input:checked[type="checkbox"]
     font-size: 13pt;
     cursor: pointer;
     margin: -30px 10px;
+}
+
+/*Fazer login*/
+#entrar
+{
+    background-image: url('imagem/criar.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -70px;
+}
+#entrar p
+{
+    margin: 0;
+    padding: 0;
+}
+#entrar form a
+{
+    color: black;
+    text-decoration: underline;
+    font-weight: 500;
+}
+#criarConta
+{
+    float: left;
+}
+#esqueciSenha
+{
+    float: right;
+}
+
+/*Esqueçi Senha*/
+#criar
+{
+    background-image: url('imagem/criar.jpg');
+    background-size: cover;
+}
+#criar form p
+{
+    font-size: 15pt;
+    text-align: left;
+    margin-top: 20px;
+}
+input[type="radio"]
+{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/*Quartos disponiveis*/
+#quartos
+{
+    width: 1100px;
+    margin: auto;
+    margin-top: 70px;
+    font-size: 14pt;
+}
+#quartos #quarto .qua
+{
+    display: flex;
+}
+#quartos #quarto .qua div
+{
+    margin: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .4);
+}
+#quartos #quarto .qua div img
+{
+    margin-bottom: 10px;
+}
+#quartos #quarto .qua div input[type="button"]
+{
+    margin-top: 10px;
+}
+#quartos #quarto .qua div p
+{
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+}
+#quartos #quarto .qua div input
+{
+    width: 290px;
+    margin: auto;
+    padding: 7px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: royalblue;
+    color: white;
+    font-size: 15pt;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/*Criar Conta*/
+#entrar
+{
+    background-image: url('imagem/login.jpg');
+    background-size: cover;
+    background-position-y: -200px;
+}
+#entrar #form
+{
+    float: right;
+    margin-right: 150px;
 }
