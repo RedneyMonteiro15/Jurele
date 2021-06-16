@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagem/favicon.png" type="image/x-icon">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contactos - Hotel Jurele</title> 
+</head> 
+<body id="contato">
+    <header id="cabecalho" class="header">
+        <a href="index.html"><img src="imagem/logo.png" alt=""></a>
+        <div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="portifolio.html">Portifolio</a></li>
+                <li><a href="contato.html" class="atual">Contactos</a></li>
+                <li><a href="quartos.html">Ofertas</a></li>
+            </ul>
+            <a href="login.html"><input type="button" value="Login" id="login"></a>
+        </div>
+    </header>
+    <section id="contact">
+        <h3>Contatos</h3>
+        <aside id="cont">
+            <aside id="infor">
+                <div class="conts">
+                    <div class="icons">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <h6>Endereço</h6>
+                        <p><a href="https://www.google.com/maps/dir//R.+Irene+Lisboa+1,+2900-028+Set%C3%BAbal/@38.5305507,-8.9036547,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0xd1943047e414a01:0x318bdf6911d10f3a!2m2!1d-8.901466!2d38.5305507!3e0">Rua Irene Lisboa, nº 1 , 2900-028 Setúbal (Portugal)</a></p>
+                    </div>
+                </div>
+                <div class="conts">
+                    <div class="icons">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <h6>Telefone</h6>
+                        <p>+351938098673</p>
+                        <p>+351989067456</p>
+                    </div>
+                </div>
+                <div class="conts">
+                    <div class="icons">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <h6>Email</h6>
+                        <p><a href="mailto:geral@jurele.pt">geral@dumashotel.com</a></p>
+                    </div>
+                </div>
+            </aside>
+            <aside id="enviar">
+                <form action="">
+                    <h3>Sua Mensagem</h3>
+                    <div>
+                        <label for="nome">Nome: <input type="text" id="nome" placeholder="Nome Completo"></label>
+                        <label for="email">Email: <input type="email" id ="email" onblur="validarEmail()" placeholder="Email"></label>
+                        <div id="valEmail"></div>
+                        <label for="msg">Digite sua mensagem: <textarea name="" id="msg" cols="30" rows="3" placeholder="Sua Mensagem"></textarea></label>
+                        <input type="button" value="Submeter" onclick="submeter()">
+                        <div id="res"></div>
+                    </div>
+                </form>
+            </aside>
+        </aside>
+    </section>
+</body>
+</html>

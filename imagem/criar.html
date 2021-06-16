@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagem/favicon.png" type="image/x-icon">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Criar Conta - Hotel Jurele</title>
+</head>
+
+<body id="criar">
+    <header id="cabecalho" class="header">
+        <a href="index.html"><img src="imagem/logo.png" alt=""></a>
+        <div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="portifolio.html">Portifolio</a></li>
+                <li><a href="contato.html">Contactos</a></li>
+                <li><a href="quartos.html">Ofertas</a></li>
+            </ul>
+            <a href="login.html"><input type="button" value="Login" id="login"></a>
+        </div>
+    </header>
+    <section id="form">
+        <form>
+            <h3>Faça a sua Reserva</h3>
+            <div>
+                <label for="nome">Nome: <input type="text" id="nome" placeholder="Nome"></label>
+                <label for="email">Email: <input type="email" id="email" placeholder="Email"
+                        onblur="validarEmail()"></label>
+                <div id="valEmail"></div>
+                <label for="dataNasc">Data Nascimento: <input type="date" id="dataNasc"></label>
+                <p>Sexo</p>
+                <label for="sexM"><input type="radio" name="sexo" id="sexM" checked> Masculino</label>
+                <label for="sexF"><input type="radio" name="sexo" id="sexF"> Femenino</label>
+                <label for="tel">Telefone: <input type="tel" name="" id="tel" placeholder="Telefone"></label>
+                <label for="morada">Morada: <input type="text" name="" id="morada" placeholder="Morada"></label>
+                <label for="senha">Senha: <input type="password" name="" id="senha" placeholder="Senha"></label>
+                <label for="senhaC">Confirmar Senha: <input type="password" name="" id="senhaC" placeholder="Confirmar Senha"></label>
+
+            </div>
+            <label for="check"><input type="checkbox" name="" id="check"> Aceito os termos de lincença</label>
+            <input type="button" value="Criar" onclick="criar()">
+            <div id="res"></div>
+        </form>
+    </section>
+</body>
+
+</html>

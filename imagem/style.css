@@ -1,0 +1,833 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.principal
+{
+    position: absolute; 
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 1000;
+}
+.header,
+.cabeca
+{
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#cabecalho img
+{
+    margin-top: -20px;
+    margin-left: 30px;
+}
+#cabecalho div
+{
+    margin-right: 60px;
+    display: flex;
+}
+#cabecalho div ul
+{
+    display: flex;
+    margin-right: 40px;
+}
+#cabecalho div ul li
+{
+    padding-right: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+i
+{
+    cursor: pointer;
+}
+#login
+{
+    margin-top: -10px;
+    font-size: 11pt;
+}
+#login, #bora{
+    padding: 10px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+#cabecalho h1{
+    margin-left: 40px;
+}
+
+#cabecalho ul li a.atual,
+#endereco li a:hover,
+.conts a:hover,
+#cabecalho ul li a:hover
+{
+    opacity: .5;
+    text-decoration: underline;
+}
+nav
+{
+    width: 100%;
+    min-height: 100vh;
+} 
+.banner
+{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+  
+.banner video 
+{
+    width: 100%;
+    transform: translateY(-110px);
+} 
+.banner .content 
+{
+    position: relative;
+    margin: -800px auto;
+    text-align: center;
+}
+nav h3
+{
+    position: relative;
+    z-index: 1;
+    padding-top: 40vh;
+    text-align: center;
+    font-size: 80px;
+    color: white;
+}
+#bora{
+    width: 100px;
+    font-size: 15pt ;
+}
+section
+{
+    margin-bottom: 100px;
+}
+aside
+{
+    max-width: 900px;
+}
+#home
+{
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+h2
+{
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 30pt;
+    color: #457b9d;
+}
+h3
+{
+    color: #457b9d;
+    font-size: 20pt;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#home p,
+#sobre div p
+{
+    letter-spacing: 1px;
+    font-size: 12pt;
+}
+#aparta,
+#ap,
+#info
+{
+    color: white;
+    margin: auto;
+    display: flex;
+    height: 240px;
+    font-size: 14pt;
+}
+#aparta #msg,
+#ap #foto1
+{
+    width: 400px;
+    text-align: center;
+    background-color: #83c5be;
+    padding-top: 110px;
+}
+#msg h3
+{
+    color: white;
+}
+#aparta #foto,
+#ap #msg1,
+#infoffoto
+{
+    width: 100%;
+    background-size: cover;
+    min-height: 200px;
+}
+#aparta #foto
+{
+    background-image: url('imagem/apartamento.png');
+}
+#ap #foto1
+{
+    background-image: url('imagem/app.jpg');
+    background-size: 350px;
+}
+#ap #msg1
+{
+    background-color: #83c5be;
+    color: white;
+    font-size: 12pt;
+}
+#msg1 div
+{
+    padding: 40px;
+}
+#reserv a
+{
+    text-decoration: underline;
+}
+#rodape
+{
+    background-color: #8EC4E7;
+    padding: 50px;
+    padding-left: 180px;
+    color: white;
+}
+#rodape .roda,
+#redes
+{
+    display: flex;
+    
+}
+#rodape .roda div{
+    margin-right: 100px;
+}
+#rodape div h5
+{
+    margin-left: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#redes li 
+{
+    margin-right: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+p
+{
+    text-align: center;
+    margin-top: 50px;
+}
+#midias
+{
+    padding-left: 100px;
+}
+
+/*Formatação da reserva*/
+#formulario
+{
+    background-image: url('imagem/formulario.jpg');
+    background-size: cover;
+}
+#form
+{
+    width: 300px;
+    margin: 0 0 30px 200px;
+    border-radius: 50px;
+    padding: 50px;
+    outline: none;
+    font-size: 14pt;
+    background-color: #fff;
+    display: block;
+}
+input::placeholder,
+textarea
+{
+    font-style: italic;
+}
+
+#form div input[type="password"],
+#form div input[type="tel"],
+#form div input[type="text"],
+#form div input[type="email"],
+#form div input[type="date"],
+#form div input[type="number"],
+form input[type="button"],
+#enviar input,
+#enviar textarea,
+#enviar input[type="button"]
+{
+    outline: none;
+    font-size: 13pt;
+    display: block;
+    padding: 10px;
+    border-radius: 20px;
+    width: 280px;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background-color: rgba(13, 138, 161, 0.2);
+}
+form input[type="button"],
+#enviar input[type="button"]
+{
+    background-color: #1B88A2;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+form input[type="button"]:hover
+{
+    opacity: .8;
+}
+form label
+{
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+form input[type="checkbox"]
+{
+    width: 20px;
+    height: 20px;
+    outline: none;
+    -webkit-appearance: none;
+    border: 2px solid black;
+    transition: .5s;
+    margin-right: 10px;
+}
+
+form input:checked[type="checkbox"]
+{
+    border-left: none;
+    border-top: none;   
+    width: 10px;
+    border-color: lawngreen;
+    transform: rotate(45deg);
+}
+#valEmail
+{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.cabeca
+{
+    background-color: #8EC4E7;
+}
+.foto
+{
+    display: flex;
+}
+#portifolio
+{
+    
+    width: 1100px;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    transition: 1s;
+}
+#texto
+{
+    width: 800px;
+    margin: auto;
+}
+#galeria
+{
+    margin-left: 40px;
+    transition: 1s;
+}
+#galeria img
+{
+    margin: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+#galeria img:hover
+{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    transform: rotate(10deg);
+}
+#servicos
+{
+    margin-top: 150px;
+}
+#todos-servicos
+{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+#todos-servicos .tipo
+{
+    width: 300px;
+    background-color: cadetblue;
+    margin: 20px;
+}
+#todos-servicos .tipo .titulo
+{
+    background-color: chocolate;
+    padding: 20px;
+    font-size: 16pt;
+}
+#todos-servicos .tipo .preco
+{
+    padding: 20px;
+}
+#todos-servicos .tipo .preco h6
+{
+    font-size: 15pt;
+    margin-bottom: -20px;
+}
+#todos-servicos .tipo .opcao
+{
+    padding: 20px;
+}
+#todos-servicos .tipo .opcao ul li
+{
+    padding: 3px;
+}
+#todos-servicos .tipo input
+{
+    width: 100px;
+    padding: 5px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+/*Formatação do contato*/
+#contato
+{
+    background-image: url('imagem/contato.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -70px;
+}
+#contact
+{
+    margin-top: 10px;
+}
+#contact h3
+{
+    color: white;
+    font-size: 40pt;
+}
+#cont
+{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+}
+#infor
+{
+    color: white;
+    width: 600px;
+    margin-top: 30px;
+}
+.conts
+{
+    margin: 40px;
+    display: flex;
+}
+.conts div
+{
+    margin-right: 10px;
+}
+.conts p
+{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+.conts a
+{
+    text-decoration: underline;
+    transition: .5s;
+}
+.conts h6
+{
+    font-size: 14pt;
+    color: #1B88A2;
+    font-weight: 900;
+}
+.icons
+{
+    background-color: white;
+    border-radius: 50%;
+    padding: 20px;
+    color: black;
+}
+#enviar
+{
+    background-color: white;
+    padding: 25px;
+    border-radius: 40px;
+}
+#enviar h3
+{
+    color: #1B88A2;
+    font-size: 20pt;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*Formatação do sobre*/
+#sobre
+{
+    margin: auto;
+    margin-top: 80px;
+    width: 1000px;
+    margin-bottom: 100px;
+}
+#sobre div
+{
+    display: flex;
+}
+#sobre img
+{
+    margin-left: 50px;
+}
+#sobre div p
+{
+    text-align: left;
+    margin-top: 15px;
+    letter-spacing: 2px;
+}
+#sobre span
+{
+    font-size: 20pt;
+    color: rgb(13, 138, 161);
+    font-weight: 600;
+}
+#sobre a
+{
+    color: rgb(13, 138, 161);
+    text-decoration: underline;
+}
+
+/*Formatação dos serviços*/
+#servicos
+{
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+.todos-serviços
+{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+}
+.tipo
+{
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.tipo div
+{
+    padding: 10px;
+}
+.titulo
+{
+    font-size: 20pt;
+}
+.preço
+{
+    font-size: 40pt;
+    padding: 10px;
+}
+.opções
+{
+    padding: 20px; 
+}
+.opções li
+{
+    padding: 2px; 
+}
+.tipo input
+{
+    padding: 5px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 100px;
+}
+#transporte .titulo,
+#transporte input
+{
+    background-color: #81b29a;
+    color: white;
+}
+#Alimentação .titulo,
+#Alimentação input
+{
+    background-color: #a5a58d;
+    color: white;
+}
+#Desporte .titulo,
+#Desporte input
+{
+    background-color:#00b4d8 ;
+    color: white;
+}
+.opções li i
+{
+    color: rgb(55, 205, 50);
+}
+.opções li span i
+{
+    color: red;
+}
+#Azul
+{
+    height: 100px;
+    background-color:#81b29a;
+    margin-top: -200px;
+}
+.tipo
+{
+    background-color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+.tipo:hover
+{
+    transform: scale(1.02);
+}
+.tipo input
+{
+    font-size: 13pt;
+    padding: 10px;
+    width: 150px;
+    margin-top: 10px;
+}
+
+/*Formatção dos membros*/
+#equipa
+{
+    background-color: rgb(13, 138, 161);
+}
+#membros
+{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+}
+#membros img
+{
+    width: 150px;
+    border-radius: 50%;
+}
+#membros div
+{
+    width: 300px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    text-align: center;
+    border-radius: 40px;
+    background-color: white;
+    cursor: pointer;
+    transition: .5s;
+    background-color: white;
+}
+#membros div:hover
+{
+    transform: scale(1.02);
+}
+#membros h6
+{
+    font-size: 20pt;
+    margin-top: 20px;
+    font-weight: 750;
+}
+#membros p
+{
+    margin: 4px 0;
+    font-size: 12pt;
+}
+#membros div:hover
+{
+    opacity: 1;
+}
+#membros i
+{
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 5px;
+}
+.fa
+{
+    transition: .5s;
+}
+.fa:hover
+{
+    transform: scale(1.2);
+}
+#membros .fa-linkedin
+{
+    color: #0e76a8;
+}
+#membros .fa-twitter
+{
+    color: #1DA1F2;
+}
+#membros .fa-github
+{
+    color: #000;
+}
+#equipas
+{
+    background-color: #1DA1F2;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 13pt;
+    cursor: pointer;
+    margin: -30px 10px;
+}
+
+/*Fazer login*/
+#entrar
+{
+    background-image: url('imagem/criar.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -70px;
+}
+#entrar p
+{
+    margin: 0;
+    padding: 0;
+}
+#entrar form a
+{
+    color: black;
+    text-decoration: underline;
+    font-weight: 500;
+}
+#criarConta
+{
+    float: left;
+}
+#esqueciSenha
+{
+    float: right;
+}
+
+/*Esqueçi Senha*/
+#criar
+{
+    background-image: url('imagem/criar.jpg');
+    background-size: cover;
+}
+#criar form p
+{
+    font-size: 15pt;
+    text-align: left;
+    margin-top: 20px;
+}
+input[type="radio"]
+{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/*Quartos disponiveis*/
+#quartos
+{
+    width: 1100px;
+    margin: auto;
+    margin-top: 70px;
+    font-size: 14pt;
+    margin-bottom: 50px;
+}
+#quartos #quarto .qua
+{
+    display: flex;
+}
+#quartos #quarto .qua div
+{
+    margin: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .4);
+}
+#quartos #quarto .qua div img
+{
+    margin-bottom: 10px;
+}
+#quartos #quarto .qua div input[type="button"]
+{
+    margin-top: 10px;
+}
+#quartos #quarto .qua div p
+{
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+}
+#quartos #quarto .qua div input
+{
+    width: 290px;
+    margin: auto;
+    padding: 7px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: royalblue;
+    color: white;
+    font-size: 15pt;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/*Criar Conta*/
+#entrar
+{
+    background-image: url('imagem/login.jpg');
+    background-size: cover;
+    background-position-y: -200px;
+}
+#entrar #form
+{
+    float: right;
+    margin-right: 150px;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagem/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+    <title>Serviços - Hotel Jurele</title> 
+</head> 
+<body> 
+    <header id="cabecalho" class="cabeca" class="header">
+        <a href="index.html"><img src="imagem/logo.png" alt=""></a>
+        <div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="servicos.html" class="atual">Serviços</a></li>
+                <li><a href="portifolio.html">Portifolio</a></li>
+                <li><a href="contato.html">Contactos</a></li>
+                <li><a href="quartos.html">Ofertas</a></li>
+            </ul>
+            <a href="login.html"><input type="button" value="Login" id="login"></a>
+        </div>
+    </header>
+    <section id="servicos">
+        <h2>Nossos Serviços</h2>
+        <div class="todos-serviços">
+            <div class="tipo" id="transporte" onmousemove="entrouT()" onmouseout="saiu()">
+                <div class="titulo">
+                    <h4> Transporte</h4>
+                    <i class="fa fa-car" aria-hidden="true"></i>
+                </div>
+                
+                <div class="preço">
+                <h6>50€</h6>
+                </div>
+                <div  class="opções">
+                    <ul>
+                        
+                        <li> <i class="fa fa-check" aria-hidden="true"></i> Carro</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Barco</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Bicicleta</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Helicóptero</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Autocarro</li>
+                        <li><span><i class="fa fa-times" aria-hidden="true"></i></span> Avião</li>
+                    </ul>
+                </div>
+                <a href="login.html"><input type="button" value="Adquirir"></a>
+            </div>
+            <div class="tipo" id="Alimentação" onmousemove="entrouA()" onmouseout="saiu()">
+                <div class="titulo">
+                    <h4> Alimentação</h4>
+                    <i class="fa fa-cutlery" aria-hidden="true"></i>
+                </div>
+                <div class="preço">
+                <h6> 70€</h6>
+                </div>
+                <div class="opções">
+                    <ul>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Restaurante</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Bares</li>
+                        <li> <i class="fa fa-check" aria-hidden="true"></i> Cafetaria</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Discoteca</li>
+                        <li><span><i class="fa fa-times" aria-hidden="true"></i></span> Supermercado</li>
+                        <li><span><i class="fa fa-times" aria-hidden="true"></i></span> Postinhos</li>
+                    </ul>
+                </div>
+                <a href="login.html"><input type="button" value="Adquirir"></a>
+            </div>
+            <div class="tipo" id="Desporte" onmousemove="entrouD()" onmouseout="saiu()">
+                <div class="titulo">
+                    <h4> Desporte</h4>
+                    <i class="fa fa-futbol-o" aria-hidden="true"></i>
+                </div>
+                <div class="preço">
+                    <h6>40€</h6>
+                </div>
+                <div class="opções">
+                    <ul>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Golfe</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Natação</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Tenis</li>
+                        <li><span><i class="fa fa-times" aria-hidden="true"></i></span> Fotebool</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Basketbool</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Voley</li>
+                    </ul>
+                </div>
+                <a href="login.html"><input type="button" value="Adquirir"></a>
+            </div>
+        </div>
+        <div id="Azul">
+        
+        </div>
+    </section>
+    <footer id="rodape">
+        <div class="roda">
+            <div>
+                <h5>Endereço</h5>
+                <ul id="endereco">
+                    <li class="contate"><a href="https://www.google.com/maps/dir//R.+Irene+Lisboa+1,+2900-028+Set%C3%BAbal/@38.5305507,-8.9036547,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0xd1943047e414a01:0x318bdf6911d10f3a!2m2!1d-8.901466!2d38.5305507!3e0"><i class="fa fa-map-marker" aria-hidden="true"></i> Rua Irene Lisboa, nº 1 , 2900-028 Setúbal (Portugal)</a></li>
+                    <li class="contate"><a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i> geral@dumashotel.com</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5>Contacto</h5>
+                <ul id="telefone">
+                    <li><i class="fa fa-phone" aria-hidden="true"></i> +351938098673</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i> +351989067456</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i> +351808978565</li>
+                </ul>
+            </div>
+            <div id="midias">
+                <h5>Siga-nos</h5>
+                <ul id="redes">
+                    <li class="face"><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li class="twiter"><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li class="insta"><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li class="youtube"><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy JURELE 2021</p>
+    </footer>
+</body>
+</html>
