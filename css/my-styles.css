@@ -1,0 +1,26 @@
+
+.colleft {
+    background: #c3b360 linear-gradient(90deg, #C3B360, #C3B360 28px, #886B17 28px, #886B17);
+    color: #ffffff;
+    padding-top: 15px;
+
+}
+
+.topcontent {
+    color: #eaeaea;
+    background-color: #666666;
+}
+
+.main {
+    padding: 0;
+}
+.content {
+    padding: 20px;
+}
+.footer {
+    height: 32px;
+    background-color: #ccc;
+    font-size: 11px;
+    color: #666666;
+    text-align: center;
+}

@@ -1,0 +1,17 @@
+.conteudo {
+    padding: 25px 25px 25px 25px;
+}
+
+.reserva label {
+    color: blue;
+}
+
+
+path {
+    fill: white;
+}
+
+.tcolor {
+    background: linear-gradient(to left, #866919 0%, #866919 85%,#000000 85%,
+    #c2b061 85%, #c2b061 100%);
+}

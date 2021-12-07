@@ -1,0 +1,52 @@
+.cor-fundo{
+    background-color: #1B88A2;
+}
+.header{
+    font-size: 15pt; 
+    text-decoration: underline;
+}
+.header a{
+    color: white;
+}
+.d-md-block button.btn
+{
+    background-color: #1B88A2; 
+    color: white
+}
+.reserva,
+.reserva input[type="submit"]
+{
+    font-weight: 700;
+}
+.reserva label input{
+    display: block;
+    padding-top: 5px;
+}
+.reserva label input[type="number"]{
+    width: 80px;
+}
+.reserva label,
+.reserva input[type="submit"]{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+div.input-group{
+    padding-left: 40px;
+}
+
+.reserva input
+{
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+.reserva input[type="submit"]
+{
+    background-color: #FFCA2C;
+    color: white;
+    width: 130px;
+}
+footer a ifas{
+    font-size: 100px;
+    float: right;
+}
