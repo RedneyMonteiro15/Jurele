@@ -5,7 +5,8 @@
     font-size: 15pt; 
     text-decoration: underline;
 }
-.header a{
+
+.header a:hover{
     color: white;
 }
 .d-md-block button.btn
@@ -49,4 +50,7 @@ div.input-group{
 footer a ifas{
     font-size: 100px;
     float: right;
+}
+.fixado{
+    position: fixed;
 }
