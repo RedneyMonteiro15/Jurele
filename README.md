@@ -20,7 +20,6 @@ Desenvolvimento de site de um hotel de um trabalho de grupo do curso. Site de ho
 ## 👤 Lista dos desenvolvedores do projeto:
 * [Redney Monteiro](https://github.com/RedneyMonteiro15)
 * [Jumara Fernandes](https://github.com/maura2020)
-* [Leonardo Santana](https://github.com/LeoSantana24)
 
 ## :books: Link do Site
 Para aceder ao site, basta [Clicar Aqui!!!](https://redneymonteiro15.github.io/Jurele/)
